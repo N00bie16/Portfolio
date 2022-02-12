@@ -1,0 +1,97 @@
+* {
+  margin: 0%;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Navbar */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.left {
+  width: 435px;
+  height: 720px;
+  background-color: black;
+}
+
+.left h1 {
+  display: flex;
+  font-size: 24px;
+  font-family: "Righteous";
+  margin-top: 27px;
+  margin-left: 147px;
+  color: white;
+}
+
+.right {
+  background-color: #4e4d4d;
+  width: 845px;
+  height: 80px;
+}
+
+.right nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  list-style: none;
+}
+
+.right ul li a {
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.right ul li a:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid yellow;
+  width: 50%;
+  margin: auto;
+  width: 56px;
+  height: 3px;
+  left: 891px;
+  padding: 3px;
+}
+
+/* Isi */
+.isi {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-left: 260px;
+  margin-top: 320px;
+  font-family: "Roboto";
+}
+
+.isi h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.isi h1 {
+  color: yellow;
+  font-size: 48px;
+}
+
+.isi h3 {
+  color: black;
+  background-color: yellow;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* gambar */
+.gambar img {
+  position: absolute;
+  width: 845px;
+  height: 957px;
+  left: 435px;
+  top: 79px;
+  z-index: -1;
+}
