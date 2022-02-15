@@ -1,10 +1,15 @@
 * {
-  margin: 0%;
+  margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
 /* Navbar */
+section {
+  width: 100%;
+  height: 620px;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -13,7 +18,7 @@
 
 .left {
   width: 435px;
-  height: 720px;
+  height: 620px;
   background-color: black;
 }
 
@@ -50,13 +55,11 @@
 .right ul li a:hover::after {
   content: "";
   display: block;
-  border-bottom: 2px solid yellow;
-  width: 50%;
+  border-bottom: 3px solid yellow;
+  width: 100%;
   margin: auto;
-  width: 56px;
-  height: 3px;
-  left: 891px;
-  padding: 3px;
+  margin-left: 40px;
+  padding: 1px;
 }
 
 /* Isi */
